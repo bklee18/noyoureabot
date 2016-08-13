@@ -20,6 +20,8 @@ class Image
   -d "client_id=#{ENV['CLARIFAI_CLIENT_ID']}" \
   -d "client_secret=#{ENV['CLARIFAI_CLIENT_SECRET']}" \
   -d "grant_type=client_credentials"`
+    query = JSON.parse(response)
+    clarifai_access_token = query['access_token']
   end
 
   IMAGE_TAGS = [
