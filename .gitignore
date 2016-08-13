@@ -15,7 +15,10 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
 
 
 
+=======
+>>>>>>> Add dotenv gem and .env
 .env

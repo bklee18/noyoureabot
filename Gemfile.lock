@@ -48,6 +48,7 @@ GEM
     debug_inspector (0.0.2)
     domain_name (0.5.20160615)
       unf (>= 0.0.5, < 1.0.0)
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
 <<<<<<< HEAD
 =======
     dotenv (2.1.1)
@@ -55,6 +56,8 @@ GEM
       dotenv (= 2.1.1)
       railties (>= 4.0, < 5.1)
 >>>>>>> 5c244c894e345e73b8b44d2d89764be0b60d7db1
+=======
+>>>>>>> Add dotenv gem and .env
     equalizer (0.0.10)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -63,10 +66,31 @@ GEM
     ffi (1.9.14)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
 <<<<<<< HEAD
 =======
     hashie (3.4.4)
 >>>>>>> 5c244c894e345e73b8b44d2d89764be0b60d7db1
+=======
+    google-api-client (0.9.11)
+      addressable (~> 2.3)
+      googleauth (~> 0.5)
+      httpclient (~> 2.7)
+      hurley (~> 0.1)
+      memoist (~> 0.11)
+      mime-types (>= 1.6)
+      representable (~> 2.3.0)
+      retriable (~> 2.0)
+      thor (~> 0.19)
+    googleauth (0.5.1)
+      faraday (~> 0.9)
+      jwt (~> 1.4)
+      logging (~> 2.0)
+      memoist (~> 0.12)
+      multi_json (~> 1.11)
+      os (~> 0.9)
+      signet (~> 0.7)
+>>>>>>> Add dotenv gem and .env
     http (1.0.4)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -78,6 +102,11 @@ GEM
     http_parser.rb (0.6.0)
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
+=======
+    httpclient (2.8.1)
+    hurley (0.2)
+>>>>>>> Add dotenv gem and .env
     i18n (0.7.0)
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
@@ -87,13 +116,25 @@ GEM
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
     json (1.8.3)
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
+=======
+    jwt (1.5.4)
+>>>>>>> Add dotenv gem and .env
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    little-plugger (1.1.4)
+    logging (2.1.0)
+      little-plugger (~> 1.1)
+      multi_json (~> 1.10)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
+=======
+    memoist (0.14.0)
+>>>>>>> Add dotenv gem and .env
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
     method_source (0.8.2)
@@ -110,6 +151,7 @@ GEM
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
     oauth (0.5.1)
     omniauth (1.3.1)
       hashie (>= 1.2, < 4)
@@ -120,6 +162,9 @@ GEM
     omniauth-twitter (1.2.1)
       json (~> 1.3)
       omniauth-oauth (~> 1.1)
+=======
+    os (0.9.6)
+>>>>>>> Add dotenv gem and .env
     pg (0.18.4)
     pkg-config (1.1.7)
     pry (0.10.4)
@@ -157,6 +202,9 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    representable (2.3.0)
+      uber (~> 0.0.7)
+    retriable (2.1.0)
     sass (3.4.22)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -164,6 +212,14 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
+=======
+    signet (0.7.3)
+      addressable (~> 2.3)
+      faraday (~> 0.9)
+      jwt (~> 1.5)
+      multi_json (~> 1.10)
+>>>>>>> Add dotenv gem and .env
     simple_oauth (0.3.1)
     slop (3.6.0)
     spring (1.7.2)
@@ -184,8 +240,11 @@ GEM
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
 =======
 >>>>>>> 5c244c894e345e73b8b44d2d89764be0b60d7db1
+=======
+>>>>>>> Add dotenv gem and .env
     twitter (5.16.0)
       addressable (~> 2.3)
       buftok (~> 0.2.0)
@@ -199,6 +258,7 @@ GEM
       simple_oauth (~> 0.3.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uber (0.0.15)
     uglifier (3.0.1)
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
@@ -218,10 +278,14 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
 <<<<<<< HEAD
 =======
   dotenv-rails
 >>>>>>> 5c244c894e345e73b8b44d2d89764be0b60d7db1
+=======
+  google-api-client
+>>>>>>> Add dotenv gem and .env
   httparty
   jbuilder (~> 2.5)
   jquery-rails
@@ -238,8 +302,11 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
 <<<<<<< HEAD
   turbolinks (~> 5)
+<<<<<<< 0103cdb80fadba77f96894c4db25b2e15f17111b
 =======
 >>>>>>> 5c244c894e345e73b8b44d2d89764be0b60d7db1
+=======
+>>>>>>> Add dotenv gem and .env
   twitter
   tzinfo-data
   uglifier (>= 1.3.0)
